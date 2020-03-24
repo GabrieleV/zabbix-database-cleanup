@@ -35,3 +35,8 @@ The queries are tested against Zabbix 4.0. Apply with caution to other version. 
     user@host-$ sudo service zabbix-server stop
     user@host-$ psql zabbix < stop-email/stop-alerts (use delete-alerts if you're not interested in alert history)
     user@host-$ sudo service zabbix-server start
+
+#### References
+
+[azmelanar/zabbix-database-cleanup: Cleanup script for orphaned data in a Zabbix Database](https://github.com/azmelanar/zabbix-database-cleanup)
+[Zabbix Database Cleanup - Delete Old Data - Michael Foster](http://www.michaelfoster82.co.uk/zabbix-database-cleanup-delete-old-data/)
